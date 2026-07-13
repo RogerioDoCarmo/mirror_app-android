@@ -1,0 +1,79 @@
+{
+  "expo": {
+    "name": "Miroji",
+    "slug": "mirror-app",
+    "version": "1.3.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "mirrorapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.rogeriodocarmo.miroji",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Miroji uses your front camera to show you a mirror view.",
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "appleTeamId": "MJ8B2UX599"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundImage": "./assets/adaptive-icon-background.png",
+        "backgroundColor": "#6FB0FA"
+      },
+      "package": "com.rogeriodocarmo.miroji",
+      "permissions": ["android.permission.CAMERA"],
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-localization",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Miroji uses your front camera to display a mirror view.",
+          "microphonePermission": false,
+          "recordAudioAndroid": false
+        }
+      ],
+      "@react-native-community/datetimepicker",
+      "./plugins/withCleanAndroidPermissions",
+      [
+        "expo-splash-screen",
+        {
+          "ios": {
+            "image": "./assets/splash-logo-light.png",
+            "imageWidth": 220,
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff",
+            "dark": {
+              "image": "./assets/splash-logo-dark.png",
+              "backgroundColor": "#000000"
+            }
+          },
+          "android": {
+            "image": "./assets/adaptive-icon.png",
+            "imageWidth": 180,
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff",
+            "dark": {
+              "image": "./assets/adaptive-icon.png",
+              "backgroundColor": "#000000"
+            }
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "fb2332e5-c3f1-4016-b1ff-021e58211658"
+      }
+    },
+    "owner": "rogeriodocarmo"
+  }
+}
