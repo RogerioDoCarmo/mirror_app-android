@@ -1,67 +1,10 @@
-# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+# This repo intentionally tracks android/ and node_modules/ — they're the
+# whole point (a self-contained, buildable Gradle snapshot). Only ignore
+# actual build output and local machine state below.
 
-# dependencies
-node_modules/
-
-# Expo
-.expo/
-dist/
-web-build/
-expo-env.d.ts
-
-# Native
-.kotlin/
-*.orig.*
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
-
-# Metro
-.metro-health-check*
-
-# debug
-npm-debug.*
-yarn-debug.*
-yarn-error.*
-
-# macOS
+android/build/
+android/app/build/
+android/.gradle/
+android/.cxx/
+android/local.properties
 .DS_Store
-*.pem
-
-# local env files
-.env*.local
-
-# typescript
-*.tsbuildinfo
-
-# generated native folders
-/ios
-/android
-
-# Test coverage & mutation reports
-coverage/
-reports/
-.stryker-tmp/
-
-# Store submission and Firebase secrets
-google-services-key.json
-google-services.json
-GoogleService-Info.plist
-*.apk
-*.aab
-*.ipa
-*.zip
-*.tar.gz
-build-*.apk
-build-*.aab
-build-*.ipa
-
-# Storybook web build (Chromatic)
-storybook-static/
-*storybook.log
-chromatic.log
-
-# Local editor config (e.g. SonarLint connected mode)
-.vscode/
