@@ -1,0 +1,16 @@
+Miroji is a fast, simple mirror for your phone's front camera.
+
+Open it and you immediately see a live view from your front camera — just like looking into a mirror. No shutter, no saving, no sign-up.
+
+Private by design: nothing is ever recorded, stored, or sent anywhere. Miroji only asks for the camera permission, and the camera image never leaves your device.
+
+Features:
+
+* Instant live front-camera mirror
+* No ads, no trackers, no analytics
+* No account or sign-up required
+* Nothing is recorded or saved
+* Clean, minimal interface
+* Available in English, Portuguese, Spanish and Japanese
+
+Miroji is free and open source.

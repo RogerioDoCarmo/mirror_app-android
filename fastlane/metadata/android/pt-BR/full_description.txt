@@ -1,0 +1,16 @@
+O Miroji é um espelho rápido e simples para a câmera frontal do seu telefone.
+
+Abra o app e veja imediatamente uma imagem ao vivo da câmera frontal — como se olhasse num espelho. Sem disparo, sem salvar, sem cadastro.
+
+Privado por design: nada é gravado, armazenado ou enviado para lugar nenhum. O Miroji pede apenas a permissão de câmera, e a imagem nunca sai do seu dispositivo.
+
+Recursos:
+
+* Espelho instantâneo com a câmera frontal
+* Sem anúncios, sem rastreadores, sem analytics
+* Não exige conta nem cadastro
+* Nada é gravado ou salvo
+* Interface limpa e mínima
+* Disponível em inglês, português, espanhol e japonês
+
+O Miroji é gratuito e de código aberto.
