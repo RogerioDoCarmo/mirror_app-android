@@ -94,5 +94,14 @@
       "tar": ">=7.5.16",
       "form-data": ">=4.0.6"
     }
+  },
+  "expo": {
+    "autolinking": {
+      "android": {
+        "buildFromSource": [
+          ".*"
+        ]
+      }
+    }
   }
 }
