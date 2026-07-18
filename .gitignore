@@ -1,7 +1,8 @@
-# This repo intentionally tracks android/ and node_modules/ — they're the
-# whole point (a self-contained, buildable Gradle snapshot). Only ignore
-# actual build output and local machine state below.
+# Dependencies are installed at build time (pnpm install --frozen-lockfile,
+# hoisted layout per .npmrc) — never committed here.
+node_modules/
 
+# Build output and local machine state
 android/build/
 android/app/build/
 android/.gradle/
