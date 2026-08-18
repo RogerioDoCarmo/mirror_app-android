@@ -1,5 +1,9 @@
 # mirror_app-android
 
+<p align="center">
+  <a href="https://f-droid.org/packages/com.rogeriodocarmo.miroji/"><img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on F-Droid" height="60" /></a>
+</p>
+
 **Auto-generated build mirror. Do not edit directly — changes will be overwritten.**
 
 This repository holds a buildable snapshot of the Android/Gradle project for
@@ -19,6 +23,7 @@ The committed `package.json` sets Expo's autolinking option
 compiled from source by Gradle instead of consuming the prebuilt AARs that
 Expo ships.
 
+- **Published app:** [Miroji on F-Droid](https://f-droid.org/packages/com.rogeriodocarmo.miroji/) — built from this snapshot on F-Droid's own infrastructure.
 - **App source, issues, and development:** [RogerioDoCarmo/mirror_app](https://github.com/RogerioDoCarmo/mirror_app)
 - **License:** MIT (same as the source repo)
 - **Updated by:** [`.github/workflows/android-mirror.yml`](https://github.com/RogerioDoCarmo/mirror_app/blob/main/.github/workflows/android-mirror.yml) in the main repo, on every GitHub release.
